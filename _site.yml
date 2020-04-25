@@ -1,12 +1,18 @@
-name: "my-website"
+name: "COVID-19 UK"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "COVID-19 UK"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Datos de hoy"
+      href: Nuevoscasos.html
+    - text: "Nuevos Casos"
+      href: Nuevoscasos.html
+    - text: "Predicciones"
+      href: Predicciones.html
+    - text: "Situacion Mundial"
+      href: SituacionMundial.html
+    - text: "Ayuda"
+      href: Ayuda.html
 output:
   html_document:
     theme: cosmo
